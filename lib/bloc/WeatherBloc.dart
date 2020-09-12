@@ -5,7 +5,6 @@ import 'package:weather_app/repo/WeatherRepo.dart';
 
 class WeatherEvent extends Equatable {
   @override
-  // TODO: implement props
   List<Object> get props => [];
 }
 
@@ -15,7 +14,6 @@ class FetchWeather extends WeatherEvent {
   FetchWeather(this._city);
 
   @override
-  // TODO: implement props
   List<Object> get props => [_city];
 }
 
@@ -23,7 +21,6 @@ class ResetWeather extends WeatherEvent {}
 
 class WeatherState extends Equatable {
   @override
-  // TODO: implement props
   List<Object> get props => [];
 }
 
@@ -39,7 +36,6 @@ class WeatherIsLoaded extends WeatherState {
   WeatherModel get getWeather => _weather;
 
   @override
-  // TODO: implement props
   List<Object> get props => [_weather];
 }
 

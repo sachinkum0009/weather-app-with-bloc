@@ -5,9 +5,11 @@ import 'package:weather_app/bloc/WeatherBloc.dart';
 import 'package:weather_app/ui/ShowWeather.dart';
 
 class SearchPage extends StatelessWidget {
+
+  
   @override
   Widget build(BuildContext context) {
-    final weatherBloc = BlocProvider.of<WeatherBloc>(context);
+    final WeatherBloc weatherBloc = BlocProvider.of<WeatherBloc>(context);
     var cityController = TextEditingController();
 
     return Column(
@@ -118,5 +120,8 @@ class SearchPage extends StatelessWidget {
         })
       ],
     );
+    
   }
+  
+  
 }
