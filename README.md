@@ -7,11 +7,10 @@ Weather App with BLoC Pattern
 It uses the API from Open Weather Map to get the current Temperature of the City
 
 **Results**
-
-![Weather Screenshot 1](./screenshots/flutter_01.png | width=50)
+<center>
+<img src="./screenshots/flutter_01.png" width="200">
 
 <br>
 <br>
-
-![Weather Screenshot 2](./screenshots/flutter_02.png)
-
+<img src="./screenshots/flutter_02.png" width="200">
+</center>
