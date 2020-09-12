@@ -8,7 +8,7 @@ It uses the API from Open Weather Map to get the current Temperature of the City
 
 **Results**
 
-![Weather Screenshot 1](./screenshots/flutter_01.png)
+![Weather Screenshot 1](./screenshots/flutter_01.png | width=50)
 
 <br>
 <br>
